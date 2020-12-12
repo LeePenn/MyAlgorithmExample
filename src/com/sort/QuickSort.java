@@ -6,9 +6,11 @@ public class QuickSort {
 	public static void main(String[] args) {
 		int[] arr = new int[]{9,5,4,1,1,7,2,3,6};
 		QuickSort.sort(arr, 0, arr.length-1);
-		for(int elm : arr) {
-			System.out.println(elm+" ");
-		}
+		int i = 4;
+		System.out.println(Integer.lowestOneBit(i));
+//		for(int elm : arr) {
+//			System.out.println(elm+" ");
+//		}
 
 	}
 
